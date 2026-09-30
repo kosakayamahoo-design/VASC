@@ -1,2 +1,0 @@
-"""Model-specific evaluation protocols."""
-
