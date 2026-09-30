@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vasc"
+version = "0.1.0"
+description = "Value-aware sparse attention with cross-layer memory for visual geometry"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy<2", "torch>=2.3", "einops", "pillow", "safetensors",
+    "huggingface-hub", "accelerate", "tqdm", "scipy", "open3d",
+    "opencv-python-headless", "matplotlib", "plyfile", "trimesh",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true

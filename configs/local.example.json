@@ -1,0 +1,13 @@
+{
+  "backbone": "vggt",
+  "mode": "vasc",
+  "dataset": "nrgbd",
+  "weights": "checkpoints/vggt/model.pt",
+  "data_root": "data/nrgbd",
+  "vggt_root": "external/vggt",
+  "pi3_root": "external/Pi3",
+  "streamvggt_root": "external/StreamVGGT",
+  "sparsity": 0.75,
+  "structural_allocation": true,
+  "gpu": "0"
+}
